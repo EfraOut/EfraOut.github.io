@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Experiment|Request</title>
+    <link rel="stylesheet" href="../styles/style.css"/>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="logo-box">
+          <a href="index.html"
+            ><img
+              src="/images/logo.png"
+              alt="Logo Image"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="join-experiment.html">Join Now</a></li>
+            <li><a href="request-copy.html">Request a Copy</a></li>
+            <li><a href="experiment.html">Beta Testing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="request-grid">
+          <img
+            class="grid-image"
+            src="/images/man-reading.jpg  "
+            alt="Man reading Book of Mormon"
+          />
+          <div class="feedback-info">
+          <h2>Get a free copy of the Book of Mormon</h2>
+          <p>
+            Get a copy free copy of the Book of Mormon. If you liked what you
+            read doing this experiment, and would like to receive a physical
+            copy of the book, please fill this form
+          </p>
+          </div>
+          <div id="feedback"></div>
+          <!-- Need to add function to the form -->
+          <form>
+              <p>
+                <label for="first-name">First Name:</label>
+              </p>
+                <input type="text" id="first-name" name="user_first_name" />
+              <p>
+                <label for="last-name">Last Name:</label>
+              </p>
+                <input type="text" id="last-name" name="user_last_name" />
+              <p>
+                <label for="phone-number">Phone Number</label>
+              </p>
+                <input type="text" id="phone-number" name="phone-number" />
+              <p>
+                <label for="msg">Comments (optional)</label>
+              </p>
+                <textarea id="msg" name="user_message"></textarea>
+              <p class="button">
+                <button type="submit" id="submitButton">
+                  Send your message
+                </button>
+              </p>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p class="disclaimer">
+          This is not an official site from The Church of Jesus Christ of
+          Latter-Day Saints
+        </p>
+        <h5>
+          &copy; 2022 Book of Mormon Experiment - Efrain Gomez Fajardo - WDD
+          130.22
+        </h5>
+        <div class="social-images">
+          <a
+            href="https://www.facebook.com/TheBookofMormonExperiment"
+            target="_blank"
+            ><img
+              src="/images/fb-logo.png"
+              alt="Facebook Logo"
+          /></a>
+          <a
+            href="https://www.instagram.com/bookofmormonexperiment"
+            target="_blank"
+            ><img
+              src="/images/ig-logo.png"
+              alt="Instagram Logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
