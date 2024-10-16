@@ -1,5 +1,5 @@
 # The Book of Mormon Experiment
-*This is not an official website from the Church of Jesus Christ of Latter-Day Saints.
+*This is not an official website from the Church of Jesus Christ of Latter-Day Saints*.
 
 ## Overview
 As a member of the Church of Jesus Christ of Latter-Day Saints, I have read the Book of Mormon. I love the Book of Mormon as it has given me peace when I most needed it, and it has helped me on many occasions to move forward.
